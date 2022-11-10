@@ -18,7 +18,7 @@
 #include "include/revisao-c/ex5.hpp"
 #include "include/revisao-c/ex6.hpp"
 #include "include/revisao-c/ex7.hpp"
-//#include "include/revisao-c/ex9.hpp"
+#include "include/revisao-c/ex9.hpp"
 
 int main() {
   //qualquer coisa aqui...
@@ -37,7 +37,9 @@ int main() {
                   "2";
 */
 
-  char entrada[] = "2";
+  //char entrada[] = "2";
+
+  char entrada[] = "6 8 3 6 1 4 7";
 
   //char entrada[] = "3\n"
   //                  "t p\n"
@@ -59,8 +61,8 @@ int main() {
   //5
   //printf("resultado da questao 5: %d\n ", exercicio5(entrada));
 
-  //6
-  printf("resultado da questao 6: %d\n ", exercicio6(entrada));
+  //67
+  //printf("resultado da questao 6: %d\n ", exercicio6(entrada));
   
   //7
   //printf("resultado da questao 7: %c\n ", exercicio7(entrada));
@@ -69,7 +71,7 @@ int main() {
   //printf("exercicio 8 tem resultado: %.1f\n", exercicio8(entrada));
   
   //9
-  //printf("exercicio 9 tem resultado: %.1f\n", exercicio9(entrada));
+  printf("exercicio 9 tem resultado: %.1f\n", exercicio9(entrada));
 
 
   //exercicio8(entrada);
