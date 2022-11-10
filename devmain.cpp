@@ -16,13 +16,13 @@
 //#include "include/revisao-c/ex1.hpp"
 #include "include/revisao-c/ex4.hpp"
 #include "include/revisao-c/ex5.hpp"
-//#include "include/revisao-c/ex6.hpp"
+#include "include/revisao-c/ex6.hpp"
 #include "include/revisao-c/ex7.hpp"
 //#include "include/revisao-c/ex9.hpp"
 
 int main() {
   //qualquer coisa aqui...
-  char entrada[] = "6\n"
+  /*char entrada[] = "6\n"
                      "8.0 Carla\n"
                      "9.0 Marcos\n"
                      "1.0 José\n"
@@ -30,12 +30,15 @@ int main() {
                      "5.0 Luiz\n"
                      "7.0 Maria\n"
                     "2\n";
-  
+  */
  /*char entrada[] = "2\n"
                   "3.0 A\n"
                   "9.0 B\n"
                   "2";
 */
+
+  char entrada[] = "2";
+
   //char entrada[] = "3\n"
   //                  "t p\n"
   //                  "d p\n"
@@ -51,13 +54,13 @@ int main() {
   //printf("exercicio 3 tem resultado: %.1f\n", exercicio3(entrada));
   
   //4 - meio feito
-  printf("resultado da questao 4: %d\n ", exercicio4(entrada));
+  //printf("resultado da questao 4: %d\n ", exercicio4(entrada));
   
   //5
   //printf("resultado da questao 5: %d\n ", exercicio5(entrada));
 
   //6
-  //printf("resultado da questao 6: %d\n ", exercicio6(entrada));
+  printf("resultado da questao 6: %d\n ", exercicio6(entrada));
   
   //7
   //printf("resultado da questao 7: %c\n ", exercicio7(entrada));
