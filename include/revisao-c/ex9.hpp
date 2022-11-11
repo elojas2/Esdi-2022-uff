@@ -1,6 +1,5 @@
 #pragma once // evita múltiplas definições
 #include <sstream>
-using namespace std;
 #include <bits/stdc++.h>
 
 //Leia um conjunto de N números inteiros e retorne sua mediana
