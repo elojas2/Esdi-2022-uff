@@ -10,7 +10,7 @@
 
 // inclui exercicio 2
 #include "include/revisao-c/cpp_ex2.hpp"
-//#include "include/revisao-c/cpp_ex3.hpp"
+#include "include/revisao-c/cpp_ex3.hpp"
 //#include "include/revisao-c/cpp_ex8.hpp"
 
 #include "include/revisao-c/ex1.hpp"
@@ -56,11 +56,12 @@ int main() {
   //printf("exercicio 1 tem resultado: %d\n", exercicio1(entrada));
 
   //2
-  char entrada[] = "4 1 2 2 3";
-  printf("exercicio 2 tem resultado: %d\n", exercicio2(entrada));
+  //char entrada[] = "4 1 2 2 3";
+  //printf("exercicio 2 tem resultado: %d\n", exercicio2(entrada));
 
   //3
-  //printf("exercicio 3 tem resultado: %.1f\n", exercicio3(entrada));
+  char entrada[] = "4 5.0 10.0 1.5 3.5";
+  printf("exercicio 3 tem resultado: %.1f %.1f %.1f %.1f\n", exercicio3(entrada));
   
   //4
   //printf("resultado da questao 4: %d\n ", exercicio4(entrada));
