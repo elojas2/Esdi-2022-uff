@@ -22,10 +22,10 @@ auto exercicio8(const char *entrada) {
      *a = *b;
      *b = temp;
 
-     get<0>(tupla) = *a; //1
-     get<1>(tupla) = *b; //2
-    
-    cout << get<0>(tupla) << " " << get<1>(tupla) << endl; 
+    get<0>(tupla) = *a; //1
+    get<1>(tupla) = *b; //2
 
-    return std::make_tuple(*a,*b);
+    cout << get<0>(tupla) << " " << get<1>(tupla) << endl; 
+    //estou com dificuldade de retornar a tupla
+    return 0;
 }

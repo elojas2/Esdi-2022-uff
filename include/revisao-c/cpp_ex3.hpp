@@ -42,8 +42,6 @@ auto exercicio3(const char *entrada) {
   get<0>(tupla) = soma;
   get<1>(tupla) = soma/n;
 
-  //cout << get<0>(tupla) << " " << get<1>(tupla) << " " << get<2>(tupla) << " " << get<3>(tupla)<<endl;
-  
-  
-  return get<0>(tupla), get<1>(tupla), get<2>(tupla), get<3>(tupla);
+  cout << get<0>(tupla) << " " << get<1>(tupla) << " " << get<2>(tupla) << " " << get<3>(tupla) << endl; 
+  return 0;
 }
